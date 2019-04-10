@@ -1,0 +1,62 @@
+Polynomial Kernel
+
+Classification Report
+
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00         5
+Iris-versicolor       1.00      1.00      1.00        12
+ Iris-virginica       1.00      1.00      1.00        13
+
+      micro avg       1.00      1.00      1.00        30
+      macro avg       1.00      1.00      1.00        30
+   weighted avg       1.00      1.00      1.00        30
+
+
+Confusion Matrix
+
+[[ 5  0  0]
+ [ 0 12  0]
+ [ 0  0 13]]
+
+Gaussian Kernel
+
+Classification Report
+
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00         5
+Iris-versicolor       1.00      1.00      1.00        12
+ Iris-virginica       1.00      1.00      1.00        13
+
+      micro avg       1.00      1.00      1.00        30
+      macro avg       1.00      1.00      1.00        30
+   weighted avg       1.00      1.00      1.00        30
+
+
+Confusion Matrix
+
+[[ 5  0  0]
+ [ 0 12  0]
+ [ 0  0 13]]
+
+Sigmoid Kernel
+
+Classification Report
+
+                 precision    recall  f1-score   support
+
+    Iris-setosa       0.17      1.00      0.29         5
+Iris-versicolor       0.00      0.00      0.00        12
+ Iris-virginica       0.00      0.00      0.00        13
+
+      micro avg       0.17      0.17      0.17        30
+      macro avg       0.06      0.33      0.10        30
+   weighted avg       0.03      0.17      0.05        30
+
+
+Confusion Matrix
+
+[[ 5  0  0]
+ [12  0  0]
+ [13  0  0]]
